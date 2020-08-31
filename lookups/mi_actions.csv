@@ -16,32 +16,32 @@ id,name,category,displayName,cim_action
 16,APPLY_LABEL_TO_DEVICES,Device,Apply Label,created
 17,REMOVE_LABEL_FROM_DEVICES,Device,Remove Label,deleted
 19,CHANGE_OWNERSHIP,Device,Change Ownership,modified
-20,LOCATE,Device,Locate,read
+20,LOCATE,Device,Locate,
 21,FOUND,Device,Found,
 22,WAKEUP_DEVICE,Device,Wakeup,started
-28,REINSTALL_MICLIENT,Device,Re-provision Device,
-29,REMOTE_DISPLAY,Device,Remote Display,
+28,REINSTALL_MICLIENT,Device,Re-provision Device,modified
+29,REMOTE_DISPLAY,Device,Remote Display,read
 32,CANCEL_WIPE,Device,Cancel Wipe,stopped
 33,RESET_PASSWORD,Device,Reset Password,changed
-35,SEND_APNS_MESSAGE,Device,Send APNS message,created
-36,RESEND_PROVISION_MESSAGE,Device,Resend Provision Message,created
+35,SEND_APNS_MESSAGE,Device,Send APNS message,
+36,RESEND_PROVISION_MESSAGE,Device,Resend Provision Message,
 39,REQUEST_UNLOCK_PASSCODE,Device,Request Unlock Passcode,
 40,REQUEST_UNLOCK_APP_CONNECT_CONTAINER,Device,Request Unlock AppConnect Container,
 41,REQUEST_UNLOCK_DEVICE_ONLY,Device,Request Unlock Device,
-42,CHANGE_LANGUAGE,Device,Change Language,
-44,ENABLE_VOICE_ROAMING,Device,Enable Voice Roaming,
-45,DISABLE_VOICE_ROAMING,Device,Disable Voice Roaming,
-46,ENABLE_DATA_ROAMING,Device,Enable Data Roaming,
-47,DISABLE_DATA_ROAMING,Device,Disable Data Roaming,
-48,DISABLE_PERSONAL_HOTSPOT,Device,Disable Personal Hotspot,
-49,ENABLE_PERSONAL_HOTSPOT,Device,Enable Personal Hotspot,
-51,ENABLE_KIOSK,Device,Enable Kiosk,
-52,DISABLE_KIOSK,Device,Disable Kiosk,
-53,DISABLE_KNOX_CONTAINER,Device,Disable KNOX Container,
-54,ENABLE_KNOX_CONTAINER,Device,Enable KNOX Container,
-55,ENABLE_ACTIVATION_LOCK,Device,Enable Activation Lock,
-56,DISABLE_ACTIVATION_LOCK,Device,Disable Activation Lock,
-57,RESET_PIN,Device,Reset PIN,
+42,CHANGE_LANGUAGE,Device,Change Language,modified
+44,ENABLE_VOICE_ROAMING,Device,Enable Voice Roaming,modified
+45,DISABLE_VOICE_ROAMING,Device,Disable Voice Roaming,modified
+46,ENABLE_DATA_ROAMING,Device,Enable Data Roaming,modified
+47,DISABLE_DATA_ROAMING,Device,Disable Data Roaming,modified
+48,DISABLE_PERSONAL_HOTSPOT,Device,Disable Personal Hotspot,modified
+49,ENABLE_PERSONAL_HOTSPOT,Device,Enable Personal Hotspot,modified
+51,ENABLE_KIOSK,Device,Enable Kiosk,modified
+52,DISABLE_KIOSK,Device,Disable Kiosk,modified
+53,DISABLE_KNOX_CONTAINER,Device,Disable KNOX Container,modified
+54,ENABLE_KNOX_CONTAINER,Device,Enable KNOX Container,modified
+55,ENABLE_ACTIVATION_LOCK,Device,Enable Activation Lock,modified
+56,DISABLE_ACTIVATION_LOCK,Device,Disable Activation Lock,modified
+57,RESET_PIN,Device,Reset PIN,cleared
 58,CHECK_COMPLIANCE,Device,Check Compliance,
 59,SEND_ACTIVATION_LOCK_BYPASS_CODE,Device,Send Activation Lock Bypass Code,
 60,UPDATE_DEVICE_COMMENT,Device,Update Device Comment,modified
@@ -62,7 +62,7 @@ id,name,category,displayName,cim_action
 75,INSTALL_PROV_PROFILE,MDM,Install Provisioning Profile,
 76,REMOVE_PROV_PROFILE,MDM,Remove Provisioning Profile,
 77,DEVICE_LOCK,MDM,Device Lock,
-78,CLEAR_PASSCODE,MDM,Clear Passcode,
+78,CLEAR_PASSCODE,MDM,Clear Passcode,cleared
 79,WIPE_DEVICE,MDM,Wipe Device,
 80,INSTALL_MANAGED_APP,MDM,Install Managed Application,
 81,REMOVE_MANAGED_APP,MDM,Remove Managed Application,
