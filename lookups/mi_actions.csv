@@ -49,29 +49,29 @@ id,name,category,displayName,cim_action
 62,SIGN_IN,Device,Sign In,
 63,PUSH_PROFILE,Device,Push Profile,
 64,ACTIVESYNC_DEVICE_COMMENT,ActiveSync Device,ActiveSync Device Comment,
-65,REMOVE_ACTIVESYNC_DEVICE,ActiveSync Device,Remove,
-66,BLOCK_DEVICE,ActiveSync Device,Block Device,
+65,REMOVE_ACTIVESYNC_DEVICE,ActiveSync Device,Remove,remove
+66,BLOCK_DEVICE,ActiveSync Device,Block Device,modified
 67,ALLOW_DEVICE,ActiveSync Device,Allow Device,
 68,LINK_TO_REGISTERED_DEVICE,ActiveSync Device,Link To MI Device,
 69,ASSIGN_AS_POLICY,ActiveSync Device,Assign ActiveSync Policy,
 70,REVERT_AS_POLICY,ActiveSync Device,Revert ActiveSync Policy,
 71,INSTALL_MDM_PROFILE,MDM,Install MDM Profile,
-72,REMOVE_MDM_PROFILE,MDM,Remove MDM Profile,
+72,REMOVE_MDM_PROFILE,MDM,Remove MDM Profile,remove
 73,INSTALL_ENCRYPTED_SUBPROFILE,MDM,Install Encrypted Sub-Profile,
-74,REMOVE_ENCRYPTED_SUBPROFILE,MDM,Remove Encrypted Sub-Profile,
+74,REMOVE_ENCRYPTED_SUBPROFILE,MDM,Remove Encrypted Sub-Profile,remove
 75,INSTALL_PROV_PROFILE,MDM,Install Provisioning Profile,
-76,REMOVE_PROV_PROFILE,MDM,Remove Provisioning Profile,
+76,REMOVE_PROV_PROFILE,MDM,Remove Provisioning Profile,remove
 77,DEVICE_LOCK,MDM,Device Lock,
 78,CLEAR_PASSCODE,MDM,Clear Passcode,cleared
 79,WIPE_DEVICE,MDM,Wipe Device,
 80,INSTALL_MANAGED_APP,MDM,Install Managed Application,
-81,REMOVE_MANAGED_APP,MDM,Remove Managed Application,
+81,REMOVE_MANAGED_APP,MDM,Remove Managed Application,remove
 82,APPLY_REDEMPTION_CODE,MDM,Apply Redemption Code,
 83,SETTINGS,MDM,Settings,
 84,UPLOAD_USER_PROVIDED_CERTIFICATE,Certificate,Upload User Provided Certificate,
-85,DELETE_USER_PROVIDED_CERTIFICATE,Certificate,Delete User Provided Certificate,
-86,CREATE_USER_CERTIFICATE,Certificate,Create User Certificate,
-87,CREATE_DEVICE_CERTIFICATE,Certificate,Create Device Certificate,
+85,DELETE_USER_PROVIDED_CERTIFICATE,Certificate,Delete User Provided Certificate,deleted
+86,CREATE_USER_CERTIFICATE,Certificate,Create User Certificate,created
+87,CREATE_DEVICE_CERTIFICATE,Certificate,Create Device Certificate,created
 88,REUSE_USER_CERTIFICATE,Certificate,Reuse User Certificate,
 89,APPLY_USER_PROVIDED_CERTIFICATE,Certificate,Apply User Provided Certificate,
 90,REUSE_DEVICE_CERTIFICATE,Certificate,Reuse Device Certificate,
@@ -82,9 +82,9 @@ id,name,category,displayName,cim_action
 95,USER_CERTIFICATE_RENEWAL,Certificate,User Certificate Renewal,
 96,DEVICE_CERTIFICATE_RENEWAL,Certificate,Device Certificate Renewal,
 97,ALLOW_APP_TUNNEL_FROM_APPS,App Tunnel,Allow App Tunnel,
-98,REMOVE_APP_TUNNEL_FROM_APPS,App Tunnel,Remove App Tunnel,
-99,BLOCK_APP_TUNNEL_FROM_APPS,App Tunnel,Block App Tunnel,
-100,UPDATE_APP_TUNNEL_COMMENT,App Tunnel,App Tunnel Comment,
+98,REMOVE_APP_TUNNEL_FROM_APPS,App Tunnel,Remove App Tunnel,deleted
+99,BLOCK_APP_TUNNEL_FROM_APPS,App Tunnel,Block App Tunnel,acl_modified
+100,UPDATE_APP_TUNNEL_COMMENT,App Tunnel,App Tunnel Comment,modified
 101,ADD_APP_CATALOG,App,Add App,
 102,ADD_APP_RESOURCE,App,Add App Resource,
 103,MODIFY_APP_CATALOG,App,Modify App,
@@ -92,7 +92,7 @@ id,name,category,displayName,cim_action
 105,INSTALL_APP,App,Install App,
 106,UNINSTALL_APP,App,Uninstall App,
 107,ADD_APP_CONTROL_RULE,App,Add App Control Rule,
-108,DELETE_APP_CONTROL_RULE,App,Delete App Control Rule,
+108,DELETE_APP_CONTROL_RULE,App,Delete App Control Rule,deleted
 109,EDIT_APP_CONTROL_RULE,App,Edit App Control Rule,
 119,APPLY_LABEL_TO_APPLICATION,App,Apply Label To App,
 120,REMOVE_LABEL_FROM_APPLICATION,App,Remove Label From App,
@@ -102,20 +102,20 @@ id,name,category,displayName,cim_action
 125,ADD_POLICY,Policy,Add Policy,
 126,MODIFY_POLICY,Policy,Modify Policy,
 127,MODIFY_POLICY_PRIORITY,Policy,Modify Policy Priority,
-128,DELETE_POLICY,Policy,Delete Policy,
+128,DELETE_POLICY,Policy,Delete Policy,deleted
 131,APPLY_LABEL_TO_POLICY,Policy,Apply Label To Policy,
 132,REMOVE_LABEL_FROM_POLICY,Policy,Remove Label From Policy,
 133,MODIFY_COMPLIANCE_ACTION,Compliance Action,Modify Compliance Action,
 134,MODIFY_COMPLIANCE_CHECK_PREFERENCES,Compliance Action,Modify Compliance Check Preferences,
 135,ADD_COMPLIANCE_ACTION,Compliance Action,Add Compliance Action,
-136,DELETE_COMPLIANCE_ACTION,Compliance Action,Delete Compliance Action,
+136,DELETE_COMPLIANCE_ACTION,Compliance Action,Delete Compliance Action,deleted
 137,ADD_APPSETTING,Configuration,Add Configuration,
 138,MODIFY_APPSETTING,Configuration,Modify Configuration,
 139,REMOVE_APPSETTING,Configuration,Remove Configuration,
 140,APPLY_LABEL_TO_APPSETTING,Configuration,Apply Label To Configuration,
 141,REMOVE_LABEL_FROM_APPSETTING,Configuration,Remove Label From Configuration,
 142,ADD_DEP_ACCOUNT,DEP,Add DEP Account,
-143,DELETE_DEP_ACCOUNT,DEP,Delete DEP Account,
+143,DELETE_DEP_ACCOUNT,DEP,Delete DEP Account,deleted
 144,MODIFY_DEP_ACCOUNT,DEP,Modify DEP Account,
 145,ADD_DEP_ENROLLMENT_PROFILE,DEP,Add DEP Enrollment Profile,
 146,MODIFY_DEP_ENROLLMENT_PROFILE,DEP,Modify DEP Enrollment Profile,modified
@@ -146,12 +146,12 @@ id,name,category,displayName,cim_action
 172,USER_PORTAL_SIGN_OUT,User,User Portal Sign Out,
 173,ADD_LDAP,LDAP,Add LDAP,
 174,UPLOAD_LDAP_CERT,LDAP,Upload LDAP Certificate,
-175,DELETE_LDAP,LDAP,Delete LDAP,
+175,DELETE_LDAP,LDAP,Delete LDAP,deleted
 176,MODIFY_LDAP,LDAP,Modify LDAP,
 177,MODIFY_LDAP_PREFERENCES,LDAP,Modify LDAP Preferences,
 182,SYSTEM_CONFIG_CHANGE,Other,Preference Config Changes,
 183,ADD_LABEL,Label,Add Label,
-184,DELETE_LABEL,Label,Delete Label,
+184,DELETE_LABEL,Label,Delete Label,deleted
 185,MODIFY_LABEL,Label,Modify Label,
 186,REMOTE_CONTROL,Device,Remote Control,
 188,ADD_STANDALONE_SENTRY,Sentry,Add Standalone Sentry,
@@ -164,8 +164,8 @@ id,name,category,displayName,cim_action
 195,ENABLE_INTEGRATED_SENTRY,Sentry,Enable Integrated Sentry,
 196,MODIFY_SENTRY_PREFERENCES,Sentry,Modify Sentry Preferences,
 197,REGENERATE_KEY,Sentry,Regenerate Attachment Encryption Control Key,
-198,DELETE_STANDALONE_SENTRY,Sentry,Delete Standalone Sentry,
-199,DELETE_INTEGRATED_SENTRY,Sentry,Delete Integrated Sentry,
+198,DELETE_STANDALONE_SENTRY,Sentry,Delete Standalone Sentry,deleted
+199,DELETE_INTEGRATED_SENTRY,Sentry,Delete Integrated Sentry,deleted
 200,MANAGE_CERTIFICATE,Sentry,Manage Certificate,
 201,RESYNC_INTEGRATED_SENTRY_WITH_EXCHANGE,Sentry,Resync Integrated Sentry With Exchange,
 202,AFW_CONNECT,AfW,Connect Core to Android for Work,
@@ -242,8 +242,8 @@ id,name,category,displayName,cim_action
 269,REMOVE_COMPLIANCE_POLICY_GROUP,Compliance Policy,Remove Compliance Policy Group,
 270,APPLY_LABEL_TO_COMPLIANCE_POLICY_GROUP,Compliance Policy,Apply Label To Compliance Policy Group,
 271,REMOVE_LABEL_FROM_COMPLIANCE_POLICY_GROUP,Compliance Policy,Remove Label From Compliance Policy Group,
-272,DELETE_LDAP_ENTITY,LDAP,Delete LDAP Entity,
-273,DELETE_ADMIN_LDAP_ENTITY,LDAP,Delete Admin LDAP Entity,
+272,DELETE_LDAP_ENTITY,LDAP,Delete LDAP Entity,deleted
+273,DELETE_ADMIN_LDAP_ENTITY,LDAP,Delete Admin LDAP Entity,deleted
 274,IOS_EDUCATION_ENABLE,DEP,Enable iOS Education,
 275,IOS_EDUCATION_DISABLE,DEP,Disable iOS Education,
 276,IOS_EDUCATION_SYNC_ASM,DEP,Sync iOS Education with ASM,
@@ -259,12 +259,12 @@ id,name,category,displayName,cim_action
 286,EFOTA_REGISTER_SERVICE,E-FOTA,E-FOTA Service Registered.,
 287,EFOTA_SCHEDULE_FORCE_UPDATE,E-FOTA,E-FOTA Schedule Force update.,
 290,ADD_POLICY_RESTRICTIONS_IN_SPACE,Admin,Add policy restrictions in space,
-291,UPDATE_POLICY_RESTRICTIONS_IN_SPACE,Admin,Update policy restrictions in space,
-292,REMOVE_POLICY_RESTRICTIONS_IN_SPACE,Admin,Remove policy restrictions in space,
+291,UPDATE_POLICY_RESTRICTIONS_IN_SPACE,Admin,Update policy restrictions in space,modified
+292,REMOVE_POLICY_RESTRICTIONS_IN_SPACE,Admin,Remove policy restrictions in space,deleted
 293,DEVICE_PLATFORM_UPDATE,Other,Device and Platform Update,
-294,REMOVE_APP_REVIEW,App,Remove App Review,
+294,REMOVE_APP_REVIEW,App,Remove App Review,deleted
 295,VPP_ACCOUNT_SAVE,VPP,VPP account save,
-296,VPP_ACCOUNT_DELETE,VPP,VPP account delete,
+296,VPP_ACCOUNT_DELETE,VPP,VPP account delete,deleted
 297,MI_CLIENT_CHECKIN,Device,Checkin Mobile@Work client,
 298,MI_CLIENT_SCRIPT_RESULTS,Device,Mobile@Work client script execution results,
 299,AFW_APPS_PER_USER_MODIFIED,AfW,Apps per user setting modified,
@@ -288,7 +288,7 @@ id,name,category,displayName,cim_action
 316,MANUAL_OS_SOFTWARE_UPDATE,Device,Manually Update OS Software,
 317,DEVICE_APPCONNECT_TERMS_OF_SERVICE,Device,AppConnect Terms of Service,
 318,ADD_CERTIFICATE_PROVIDER,Derived Credential Provider,Add Derived Credential Provider,
-319,DELETE_CERTIFICATE_PROVIDER,Derived Credential Provider,Delete Derived Credential Provider,
+319,DELETE_CERTIFICATE_PROVIDER,Derived Credential Provider,Delete Derived Credential Provider,deleted
 320,SET_DEFAULT_CERTIFICATE_PROVIDER,Derived Credential Provider,Set Default Derived Credential Provider,
 321,APPLE_MDM_CERT_VERIFY_FAILED,Device,MDM Certificate Verification Failure,
 322,APPLE_VPP_LICENSE_COUNT_SYNC_STARTED,VPP,Apple License Count Sync Started,
@@ -301,5 +301,5 @@ id,name,category,displayName,cim_action
 329,MARK_DEVICE_AS_UNKNOWN,Device,Mark Device as Unknown,
 330,APPLE_VPP_USER_NOT_ASSOCIATED,VPP,VPP User has not accepted Terms of Service,
 331,MANAGED_APPLE_ID,User,Managed Apple Id,
-332,LDAP_SYNC_MODIFIED_USER,User,LDAP Sync Modified User,
-333,FORCE_GOOGLE_RENEW,Device,Force Google Token Renew,
+332,LDAP_SYNC_MODIFIED_USER,User,LDAP Sync Modified User,changed
+333,FORCE_GOOGLE_RENEW,Device,Force Google Token Renew,changed
