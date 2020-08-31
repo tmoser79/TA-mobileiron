@@ -1,0 +1,305 @@
+id,name,category,displayName
+1,SEND_MESSAGE,Device,Send Message
+2,ALLOW_APP_TUNNEL,Device,Allow App Tunnel
+3,BLOCK_APP_TUNNEL,Device,Block App Tunnel
+4,REGISTER_DEVICE,Device,Register Device
+6,INSTALL_HELP_AT_WORK,Device,Install Help@Work
+7,LOST,Device,Lost
+8,WIPE,Device,Wipe
+9,LOCK,Device,Lock
+10,UNLOCK,Device,Unlock Device and AppConnect Container
+11,UNLOCK_DEVICE_ONLY,Device,Unlock Device Only
+12,UNLOCK_APP_CONNECT_CONTAINER,Device,Unlock AppConnect Container
+13,RETIRE,Device,Retire
+14,DELETE_RETIRED_DEVICE,Device,Delete Retired Device
+15,ALERT,Device,Send Alert
+16,APPLY_LABEL_TO_DEVICES,Device,Apply Label
+17,REMOVE_LABEL_FROM_DEVICES,Device,Remove Label
+19,CHANGE_OWNERSHIP,Device,Change Ownership
+20,LOCATE,Device,Locate
+21,FOUND,Device,Found
+22,WAKEUP_DEVICE,Device,Wakeup
+28,REINSTALL_MICLIENT,Device,Re-provision Device
+29,REMOTE_DISPLAY,Device,Remote Display
+32,CANCEL_WIPE,Device,Cancel Wipe
+33,RESET_PASSWORD,Device,Reset Password
+35,SEND_APNS_MESSAGE,Device,Send APNS message
+36,RESEND_PROVISION_MESSAGE,Device,Resend Provision Message
+39,REQUEST_UNLOCK_PASSCODE,Device,Request Unlock Passcode
+40,REQUEST_UNLOCK_APP_CONNECT_CONTAINER,Device,Request Unlock AppConnect Container
+41,REQUEST_UNLOCK_DEVICE_ONLY,Device,Request Unlock Device
+42,CHANGE_LANGUAGE,Device,Change Language
+44,ENABLE_VOICE_ROAMING,Device,Enable Voice Roaming
+45,DISABLE_VOICE_ROAMING,Device,Disable Voice Roaming
+46,ENABLE_DATA_ROAMING,Device,Enable Data Roaming
+47,DISABLE_DATA_ROAMING,Device,Disable Data Roaming
+48,DISABLE_PERSONAL_HOTSPOT,Device,Disable Personal Hotspot
+49,ENABLE_PERSONAL_HOTSPOT,Device,Enable Personal Hotspot
+51,ENABLE_KIOSK,Device,Enable Kiosk
+52,DISABLE_KIOSK,Device,Disable Kiosk
+53,DISABLE_KNOX_CONTAINER,Device,Disable KNOX Container
+54,ENABLE_KNOX_CONTAINER,Device,Enable KNOX Container
+55,ENABLE_ACTIVATION_LOCK,Device,Enable Activation Lock
+56,DISABLE_ACTIVATION_LOCK,Device,Disable Activation Lock
+57,RESET_PIN,Device,Reset PIN
+58,CHECK_COMPLIANCE,Device,Check Compliance
+59,SEND_ACTIVATION_LOCK_BYPASS_CODE,Device,Send Activation Lock Bypass Code
+60,UPDATE_DEVICE_COMMENT,Device,Update Device Comment
+61,SIGN_OUT,Device,Sign Out
+62,SIGN_IN,Device,Sign In
+63,PUSH_PROFILE,Device,Push Profile
+64,ACTIVESYNC_DEVICE_COMMENT,ActiveSync Device,ActiveSync Device Comment
+65,REMOVE_ACTIVESYNC_DEVICE,ActiveSync Device,Remove
+66,BLOCK_DEVICE,ActiveSync Device,Block Device
+67,ALLOW_DEVICE,ActiveSync Device,Allow Device
+68,LINK_TO_REGISTERED_DEVICE,ActiveSync Device,Link To MI Device
+69,ASSIGN_AS_POLICY,ActiveSync Device,Assign ActiveSync Policy
+70,REVERT_AS_POLICY,ActiveSync Device,Revert ActiveSync Policy
+71,INSTALL_MDM_PROFILE,MDM,Install MDM Profile
+72,REMOVE_MDM_PROFILE,MDM,Remove MDM Profile
+73,INSTALL_ENCRYPTED_SUBPROFILE,MDM,Install Encrypted Sub-Profile
+74,REMOVE_ENCRYPTED_SUBPROFILE,MDM,Remove Encrypted Sub-Profile
+75,INSTALL_PROV_PROFILE,MDM,Install Provisioning Profile
+76,REMOVE_PROV_PROFILE,MDM,Remove Provisioning Profile
+77,DEVICE_LOCK,MDM,Device Lock
+78,CLEAR_PASSCODE,MDM,Clear Passcode
+79,WIPE_DEVICE,MDM,Wipe Device
+80,INSTALL_MANAGED_APP,MDM,Install Managed Application
+81,REMOVE_MANAGED_APP,MDM,Remove Managed Application
+82,APPLY_REDEMPTION_CODE,MDM,Apply Redemption Code
+83,SETTINGS,MDM,Settings
+84,UPLOAD_USER_PROVIDED_CERTIFICATE,Certificate,Upload User Provided Certificate
+85,DELETE_USER_PROVIDED_CERTIFICATE,Certificate,Delete User Provided Certificate
+86,CREATE_USER_CERTIFICATE,Certificate,Create User Certificate
+87,CREATE_DEVICE_CERTIFICATE,Certificate,Create Device Certificate
+88,REUSE_USER_CERTIFICATE,Certificate,Reuse User Certificate
+89,APPLY_USER_PROVIDED_CERTIFICATE,Certificate,Apply User Provided Certificate
+90,REUSE_DEVICE_CERTIFICATE,Certificate,Reuse Device Certificate
+91,USER_CERTIFICATE_EXPIRED,Certificate,User Certificate Expired
+92,DEVICE_CERTIFICATE_EXPIRED,Certificate,Device Certificate Expired
+93,REVOKE_USER_CERTIFICATE,Certificate,Revoke User Certificate
+94,REVOKE_DEVICE_CERTIFICATE,Certificate,Revoke Device Certificate
+95,USER_CERTIFICATE_RENEWAL,Certificate,User Certificate Renewal
+96,DEVICE_CERTIFICATE_RENEWAL,Certificate,Device Certificate Renewal
+97,ALLOW_APP_TUNNEL_FROM_APPS,App Tunnel,Allow App Tunnel
+98,REMOVE_APP_TUNNEL_FROM_APPS,App Tunnel,Remove App Tunnel
+99,BLOCK_APP_TUNNEL_FROM_APPS,App Tunnel,Block App Tunnel
+100,UPDATE_APP_TUNNEL_COMMENT,App Tunnel,App Tunnel Comment
+101,ADD_APP_CATALOG,App,Add App
+102,ADD_APP_RESOURCE,App,Add App Resource
+103,MODIFY_APP_CATALOG,App,Modify App
+104,REMOVE_APP_CATALOG,App,Remove App
+105,INSTALL_APP,App,Install App
+106,UNINSTALL_APP,App,Uninstall App
+107,ADD_APP_CONTROL_RULE,App,Add App Control Rule
+108,DELETE_APP_CONTROL_RULE,App,Delete App Control Rule
+109,EDIT_APP_CONTROL_RULE,App,Edit App Control Rule
+119,APPLY_LABEL_TO_APPLICATION,App,Apply Label To App
+120,REMOVE_LABEL_FROM_APPLICATION,App,Remove Label From App
+121,MANAGE_VPP_LABELS,App,Manage VPP Labels
+123,ACTIVATE_POLICY,Policy,Activate Policy
+124,DEACTIVATE_POLICY,Policy,Deactivate Policy
+125,ADD_POLICY,Policy,Add Policy
+126,MODIFY_POLICY,Policy,Modify Policy
+127,MODIFY_POLICY_PRIORITY,Policy,Modify Policy Priority
+128,DELETE_POLICY,Policy,Delete Policy
+131,APPLY_LABEL_TO_POLICY,Policy,Apply Label To Policy
+132,REMOVE_LABEL_FROM_POLICY,Policy,Remove Label From Policy
+133,MODIFY_COMPLIANCE_ACTION,Compliance Action,Modify Compliance Action
+134,MODIFY_COMPLIANCE_CHECK_PREFERENCES,Compliance Action,Modify Compliance Check Preferences
+135,ADD_COMPLIANCE_ACTION,Compliance Action,Add Compliance Action
+136,DELETE_COMPLIANCE_ACTION,Compliance Action,Delete Compliance Action
+137,ADD_APPSETTING,Configuration,Add Configuration
+138,MODIFY_APPSETTING,Configuration,Modify Configuration
+139,REMOVE_APPSETTING,Configuration,Remove Configuration
+140,APPLY_LABEL_TO_APPSETTING,Configuration,Apply Label To Configuration
+141,REMOVE_LABEL_FROM_APPSETTING,Configuration,Remove Label From Configuration
+142,ADD_DEP_ACCOUNT,DEP,Add DEP Account
+143,DELETE_DEP_ACCOUNT,DEP,Delete DEP Account
+144,MODIFY_DEP_ACCOUNT,DEP,Modify DEP Account
+145,ADD_DEP_ENROLLMENT_PROFILE,DEP,Add DEP Enrollment Profile
+146,MODIFY_DEP_ENROLLMENT_PROFILE,DEP,Modify DEP Enrollment Profile
+147,DELETE_DEP_ENROLLMENT_PROFILE,DEP,Delete DEP Enrollment Profile
+148,CHECK_UPDATES_FOR_DEP_ACCOUNTS,DEP,Check Updates For DEP Accounts
+149,ASSIGN_DEVICES_TO_DEP_ENROLLMENT_PROFILE,DEP,Assign Devices To DEP Enrollment Profile
+150,ADD_DEVICE_SPACE,Admin,Add Space
+151,UPDATE_DEVICE_SPACE,Admin,Update Device Space
+152,REMOVE_DEVICE_SPACE,Admin,Remove Space
+153,MODIFY_DEVICE_SPACE,Admin,Modify Space
+154,CHANGE_DEVICE_SPACE_PRIORITIES,Admin,Change Space Priority
+155,ASSIGN_DEVICE_SPACE_ADMIN,Admin,Assign Space Admin
+156,DELETE_DEVICE_SPACE_ADMIN,Admin,Delete Space Admin
+157,REMOVE_ADMIN_FROM_SPACE,Admin,Remove Admin From Space
+158,ADMIN_PORTAL_SIGN_IN,Admin,Admin Portal Sign In
+159,ADMIN_PORTAL_SIGN_OUT,Admin,Admin Portal Sign Out
+160,USER_LOCKED_OUT,Admin,User Locked Out
+161,ADD_USER,User,Add User
+162,MODIFY_USER,User,Modify User
+163,MODIFY_USER_ROLE,User,Modify User Role
+164,SEND_INVITATION,User,Send Invitation
+165,LINK_TO_LDAP_USER,User,Link to LDAP User
+166,REQUIRE_PASSWORD_CHANGE,User,Require Password Change
+167,DELETE_USER_ACCOUNT,User,Delete User
+168,RESYNC_WITH_LDAP,User,Re-sync with LDAP
+170,RENEW_GOOGLE_APPS_PASSWORD,User,Renew Google Apps password
+171,USER_PORTAL_SIGN_IN,User,User Portal Sign In
+172,USER_PORTAL_SIGN_OUT,User,User Portal Sign Out
+173,ADD_LDAP,LDAP,Add LDAP
+174,UPLOAD_LDAP_CERT,LDAP,Upload LDAP Certificate
+175,DELETE_LDAP,LDAP,Delete LDAP
+176,MODIFY_LDAP,LDAP,Modify LDAP
+177,MODIFY_LDAP_PREFERENCES,LDAP,Modify LDAP Preferences
+182,SYSTEM_CONFIG_CHANGE,Other,Preference Config Changes
+183,ADD_LABEL,Label,Add Label
+184,DELETE_LABEL,Label,Delete Label
+185,MODIFY_LABEL,Label,Modify Label
+186,REMOTE_CONTROL,Device,Remote Control
+188,ADD_STANDALONE_SENTRY,Sentry,Add Standalone Sentry
+189,DISABLE_STANDALONE_SENTRY,Sentry,Disable Standalone Sentry
+190,EDIT_STANDALONE_SENTRY,Sentry,Edit Standalone Sentry
+191,ENABLE_STANDALONE_SENTRY,Sentry,Enable Standalone Sentry
+192,ADD_INTEGRATED_SENTRY,Sentry,Add Integrated Sentry
+193,DISABLE_INTEGRATED_SENTRY,Sentry,Disable Integrated Sentry
+194,EDIT_INTEGRATED_SENTRY,Sentry,Edit Integrated Sentry
+195,ENABLE_INTEGRATED_SENTRY,Sentry,Enable Integrated Sentry
+196,MODIFY_SENTRY_PREFERENCES,Sentry,Modify Sentry Preferences
+197,REGENERATE_KEY,Sentry,Regenerate Attachment Encryption Control Key
+198,DELETE_STANDALONE_SENTRY,Sentry,Delete Standalone Sentry
+199,DELETE_INTEGRATED_SENTRY,Sentry,Delete Integrated Sentry
+200,MANAGE_CERTIFICATE,Sentry,Manage Certificate
+201,RESYNC_INTEGRATED_SENTRY_WITH_EXCHANGE,Sentry,Resync Integrated Sentry With Exchange
+202,AFW_CONNECT,AfW,Connect Core to Android for Work
+203,AFW_DISCONNECT,AfW,Disconnect Core from Android for Work
+204,AFW_ACCEPT_PERMISSIONS,AfW,Accept Permissions for Android for Work App
+205,AFW_SAVE_RESTRICTIONS,AfW,Save Restrictions for Android for Work App
+206,AFW_SYNC_USERS,AfW,Sync Google Users with Core
+207,APPLICATION_STARTED,Other,Application Started
+207,AFW_RESET_GOOGLE_CONNECTION,AfW,Renew Android Enterprise Connection
+208,AFW_CLIENT_REQUESTS_REAUTH_TOKEN,Device,Client requested Google re-authorization token
+208,APPLICATION_STOPPED,Other,Application Stopped
+209,AFW_REVOKE_TOKEN,Device,Revoking Google User Token
+209,PROFILECHANGE,MDM,Profile Change
+210,LOCK_DEVICE,MDM,Lock Device (Android)
+211,UNLOCK_DEVICE,MDM,Unlock Device (Android)
+212,UNLOCK_DEVICE_ONLY_MDM,MDM,Unlock Device Only (Android)
+213,WIPE_DEVICE_ANDROID,MDM,Wipe Device (Android)
+214,SAVEAS_LABEL,Label,Save As Label
+215,ADD_IBOOK,Content,Add iBook
+216,MODIFY_IBOOK,Content,Modify iBook
+217,REMOVE_IBOOK,Content,Remove iBook
+218,APPLY_LABEL_TO_IBOOK,Content,Apply Label To iBook
+219,REMOVE_LABEL_FROM_IBOOK,Content,Remove Label From iBook
+220,INSTALL_IBOOK,Content,Install iBook
+221,UNINSTALL_IBOOK,Content,Uninstall iBook
+222,APPLY_VPP_LABELS,VPP,Apply VPP Labels
+223,REMOVE_VPP_LABELS,VPP,Remove VPP Labels
+224,REVOKE_VPP_LICENSE,VPP,Revoke VPP License
+225,REVOKE_ALL_VPP_LICENSES,VPP,Revoke All VPP Licenses
+226,CHANGE_LICENSE_TYPE,VPP,Change VPP License Type
+227,DISABLE_OUTOFCOMPLIANCEDEVICE,Device,Disable due to out of compliance
+227,AVAILABLE_OS_UPDATES,Device,Check Available OS Update
+228,ENABLE_DEVICE,Device,Enable
+228,UPDATE_OS,Device,Update OS Software
+229,DISABLE_DEVICE,Device,Disable
+229,DOWNLOAD_OS_UPDATES,Device,Download Available OS Update
+230,INSTALL_OS_UPDATES,Device,Install Downloaded OS Update
+231,ENABLE_LOST_MODE,Device,Enable MDM Lost Mode
+232,DISABLE_LOST_MODE,Device,Disable MDM Lost Mode
+234,DEVICE_LOCATION,Device,Device Location
+235,FEATURE_USAGE_COLLECTION_INITIATED,Other,Initiate feature usage collection
+236,FEATURE_USAGE_COLLECTION_COMPLETED,Other,Complete feature usage collection
+237,FEATURE_USAGE_COLLECTION_ERROR,Other,Feature usage collection error
+238,FEATURE_USAGE_COLLECTION_SCHEDULE_ERROR,Other,Feature usage collection scheduling error
+239,FEATURE_USAGE_DATA_RETRIEVED,Other,Retrieve feature usage data
+240,FEATURE_USAGE_DATA_FILE_NAME_LIST_RETRIEVED,Other,Retrieve feature usage data file list
+241,FEATURE_USAGE_DATA_PURGE,Other,Purge feature usage data
+243,ADD_ATTRIBUTE_DEFINITION,Custom Attributes,Add Custom Attribute
+244,MODIFY_ATTRIBUTE_DEFINITION,Custom Attributes,Modify Custom Attribute
+245,EDP,MDM,WIP
+246,EXPORT_POLICY,Policy,Export Policy
+247,EXPORT_CONFIG,Configuration,Export Configuration
+248,IMPORT_POLICY,Policy,Import Policy
+249,IMPORT_CONFIG,Configuration,Import Configuration
+250,RESET_APP_CONNECT_PASSCODE,Device,Reset AppConnect Passcode
+251,SET_DEVICE_ATTRIBUTE,Device,Set Device Attribute
+252,SET_USER_ATTRIBUTE,User,Set User Attribute
+253,REMOVE_DEVICE_ATTRIBUTE,Device,Remove Device Attribute
+254,REMOVE_USER_ATTRIBUTE,User,Remove User Attribute
+255,REBOOT,Device,Reboot
+256,ACTIVESYNC_DEVICE_CORRELATION_REMOVE,ActiveSync Device,Remove Correlation
+257,ACTIVESYNC_DEVICE_CORRELATION_ADD,ActiveSync Device,Add Correlation
+258,APPLY_LABELS_TO_DEVICE,Device,Apply Multiple Labels to One Device
+259,REMOVE_LABELS_FROM_DEVICE,Device,Remove Multiple labels from one Device
+260,REQUEST_DERIVED_CREDENTIAL,Device,Request Derived Credential
+261,WINDOWS_BRIDGE,Device,MobileIron Bridge
+262,SUBSTITUTION_VARIABLE_CHANGE,Device,Substitution Variable Change
+263,WINDOWS_LICENSING,Device,Windows License
+264,ADD_COMPLIANCE_POLICY_RULE,Compliance Policy,Add Compliance Policy Rule
+265,MODIFY_COMPLIANCE_POLICY_RULE,Compliance Policy,Modify Compliance Policy Rule
+266,REMOVE_COMPLIANCE_POLICY_RULE,Compliance Policy,Remove Compliance Policy Rule
+267,ADD_COMPLIANCE_POLICY_GROUP,Compliance Policy,Add Compliance Policy Group
+268,MODIFY_COMPLIANCE_POLICY_GROUP,Compliance Policy,Modify Compliance Policy Group
+269,REMOVE_COMPLIANCE_POLICY_GROUP,Compliance Policy,Remove Compliance Policy Group
+270,APPLY_LABEL_TO_COMPLIANCE_POLICY_GROUP,Compliance Policy,Apply Label To Compliance Policy Group
+271,REMOVE_LABEL_FROM_COMPLIANCE_POLICY_GROUP,Compliance Policy,Remove Label From Compliance Policy Group
+272,DELETE_LDAP_ENTITY,LDAP,Delete LDAP Entity
+273,DELETE_ADMIN_LDAP_ENTITY,LDAP,Delete Admin LDAP Entity
+274,IOS_EDUCATION_ENABLE,DEP,Enable iOS Education
+275,IOS_EDUCATION_DISABLE,DEP,Disable iOS Education
+276,IOS_EDUCATION_SYNC_ASM,DEP,Sync iOS Education with ASM
+277,ADD_APP_DEPENDENCY,App,Add App Dependency
+278,DEP_ACCOUNT_SYNC_COMPLETED,DEP,Account Sync Completed
+279,VPP_ACCOUNT_SYNC_COMPLETED,VPP,Apple License Sync Completed
+280,RESTART_DEVICE,Device,Restart iOS Device
+281,SHUTDOWN_DEVICE,Device,Shutdown iOS Device
+282,AFW_UPDATE_CATALOG_MODIFIED,AfW,Update catalog setting modified
+283,AFW_APPS_AT_WORK_MODIFIED,AfW,Apps@work setting modified
+284,EFOTA_ACCOUNT_ACTIVATED,E-FOTA,E-FOTA Account Activated.
+285,EFOTA_ACCOUNT_DEACTIVATED,E-FOTA,E-FOTA Account Deactivated.
+286,EFOTA_REGISTER_SERVICE,E-FOTA,E-FOTA Service Registered.
+287,EFOTA_SCHEDULE_FORCE_UPDATE,E-FOTA,E-FOTA Schedule Force update.
+290,ADD_POLICY_RESTRICTIONS_IN_SPACE,Admin,Add policy restrictions in space
+291,UPDATE_POLICY_RESTRICTIONS_IN_SPACE,Admin,Update policy restrictions in space
+292,REMOVE_POLICY_RESTRICTIONS_IN_SPACE,Admin,Remove policy restrictions in space
+293,DEVICE_PLATFORM_UPDATE,Other,Device and Platform Update
+294,REMOVE_APP_REVIEW,App,Remove App Review
+295,VPP_ACCOUNT_SAVE,VPP,VPP account save
+296,VPP_ACCOUNT_DELETE,VPP,VPP account delete
+297,MI_CLIENT_CHECKIN,Device,Checkin Mobile@Work client
+298,MI_CLIENT_SCRIPT_RESULTS,Device,Mobile@Work client script execution results
+299,AFW_APPS_PER_USER_MODIFIED,AfW,Apps per user setting modified
+300,ENABLE_BLUETOOTH,Device,Enable Bluetooth
+301,DISABLE_BLUETOOTH,Device,Disable Bluetooth
+302,REGISTER_CLOUD_NOTIFICATION_SERVICE,Admin,Register Cloud Notification Service
+303,DEVICE_MIGRATION_MDM_COMPLETED,Device,Device Migration MDM Completed
+304,DEVICE_MIGRATION_MI_CLIENT_STARTED,Device,Device Migration MI Client Started
+305,DEVICE_MIGRATION_MI_CLIENT_COMPLETED,Device,Device Migration MI Client Completed
+306,MIGRATION_CONFIGURATION,Migration,Modify Migration Configuration
+307,MOBILE_THREAT_DEFINITION_UPDATE,MTD,Mobile Threat Definition Update
+308,PULL_CLIENT_LOGS,Device,Pull Client Logs
+309,OS_UPDATE_STATUS,Device,Check OS Update status
+310,OS_UPDATE_SCAN,Device,Initiate scan for available updates on device
+311,ACCESS_REGISTRATION,Access Integration,Access Registration
+312,ACCESS_PROFILE_SYNC,Access Integration,Access Profile Sync
+313,ACCESS_DEREGISTRATION,Access Integration,Access De-registration
+314,DEVICE_MIGRATION_IDENTITY_CERT_REISSUE,Device,Reissue device identity certificate
+315,OS_UPDATE_MANUAL_SCAN,Device,Manually Scan for OS Updates
+315,MODIFY_APP_PREREQUISITES,App,Modify App Prerequisites
+316,MANUAL_OS_SOFTWARE_UPDATE,Device,Manually Update OS Software
+317,DEVICE_APPCONNECT_TERMS_OF_SERVICE,Device,AppConnect Terms of Service
+318,ADD_CERTIFICATE_PROVIDER,Derived Credential Provider,Add Derived Credential Provider
+319,DELETE_CERTIFICATE_PROVIDER,Derived Credential Provider,Delete Derived Credential Provider
+320,SET_DEFAULT_CERTIFICATE_PROVIDER,Derived Credential Provider,Set Default Derived Credential Provider
+321,APPLE_MDM_CERT_VERIFY_FAILED,Device,MDM Certificate Verification Failure
+322,APPLE_VPP_LICENSE_COUNT_SYNC_STARTED,VPP,Apple License Count Sync Started
+323,APPLE_VPP_LICENSE_COUNT_SYNC_COMPLETED,VPP,Apple License Count Sync Completed
+324,ZEBRA_FOTA_REGISTER_SERVICE,Zebra OTA,Zebra OTA Service Registration
+325,ZEBRA_FOTA_ACCOUNT_DEACTIVATED,Zebra OTA,Zebra OTA Account Deactivation
+326,CHANGE_DEVICE_NAME,Device,Change Device Name
+327,ZEBRA_DEVICE_FOTA_POLICY_REPUSH,Zebra OTA,Zebra Device OTA Policy Repush Request
+328,APPLE_VPP_LICENSE_SYNC_STARTED,VPP,Apple License Sync Started
+329,MARK_DEVICE_AS_UNKNOWN,Device,Mark Device as Unknown
+330,APPLE_VPP_USER_NOT_ASSOCIATED,VPP,VPP User has not accepted Terms of Service
+331,MANAGED_APPLE_ID,User,Managed Apple Id
+332,LDAP_SYNC_MODIFIED_USER,User,LDAP Sync Modified User
+333,FORCE_GOOGLE_RENEW,Device,Force Google Token Renew
