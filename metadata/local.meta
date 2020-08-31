@@ -7,3 +7,15 @@ modtime = 1598875457.236688000
 owner = admin
 version = 8.0.3
 modtime = 1598877412.782261000
+
+[eventtypes/mi_user_action]
+owner = admin
+version = 8.0.3
+modtime = 1598907724.765695000
+
+[tags/eventtype%3Dmi_user_action]
+owner = admin
+version = 8.0.3
+modtime = 1598907779.223761000
+
+#
