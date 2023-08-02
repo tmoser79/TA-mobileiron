@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
   "info": {
-    "title": "MobileIron Technology Add-on",
+    "title": "Technology Add-on for MobileIron MDM",
     "id": {
       "group": null,
-      "name": "Alef_TA_mobileiron",
+      "name": "TA-mobileiron",
       "version": "1.0.0"
     },
     "author": [
@@ -15,7 +15,7 @@
       }
     ],
     "releaseDate": null,
-    "description": "",
+    "description": "Technology Add-on for MobileIron MDM",
     "classification": {
       "intendedAudience": null,
       "categories": [],
